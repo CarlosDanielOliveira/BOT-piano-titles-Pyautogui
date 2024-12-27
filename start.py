@@ -4,7 +4,10 @@ import win32api
 import win32con
 import keyboard
 
+#https://gameforge.com/en-US/littlegames/magic-piano-tiles/?_gl=1*1p3n8yn*_ga*MTMwODAwNDMuMTczMTk3NDM2Mw..*_ga_37GXT4VGQK*MTczNTI1NTEyMi4zNy4xLjE3MzUyNTUyODQuMC4wLjA.
+
 pa.click(810,557, duration=1)
+
 
 def click(x, y):
     win32api.SetCursorPos((x, y))
